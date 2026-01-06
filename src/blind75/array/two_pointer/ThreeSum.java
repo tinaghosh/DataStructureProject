@@ -22,7 +22,7 @@ public class ThreeSum {
             int right = nums.length-1;
 
             if(i>0 && nums[i] == nums[i-1]){
-                continue;
+                //continue;
             }else {
                 while (left < right) {
                     if (nums[i] + nums[left] + nums[right] > 0) {
@@ -59,7 +59,7 @@ public class ThreeSum {
         ThreeSum obj = new ThreeSum();
         List<List<Integer>> result = obj.threeSumCombination(nums);
         System.out.println("\nThree Integer Sum combination equals to Zero : ");
-        result.stream().forEach(e-> System.out.print("["+e.get(0)+","+e.get(1)+","+e.get(2)+"]"));
+        result.forEach(e-> System.out.print("["+e.getFirst()+","+e.get(1)+","+e.getLast()+"]"));
 
     }
 }
