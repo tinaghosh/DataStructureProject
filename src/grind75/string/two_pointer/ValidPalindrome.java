@@ -24,7 +24,7 @@ public class ValidPalindrome {
 
         String s = "A man, a plan, a canal: Panama";
 
-        blind75.string.twopointer.ValidPalindrome obj = new blind75.string.twopointer.ValidPalindrome();
+        ValidPalindrome obj = new ValidPalindrome();
         boolean result = obj.checkPalindrome(s);
 
         if(result){
