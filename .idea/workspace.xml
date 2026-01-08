@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46759e5d-eec7-44bb-8a60-2b099d758575" name="Changes" comment="Meeting rooms DS">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructureProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blind75/interval/InsertInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/blind75/interval/InsertInterval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blind75/interval/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/blind75/interval/MergeIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grind75/stack/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/grind75/stack/BasicCalculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tinaghosh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:tinaghosh/DataStructureProject.git&quot;,
+    &quot;accountId&quot;: &quot;a41fb3e7-c8a2-4b00-9dda-cae21ddc57eb&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="37r8Qp04f2uW1daz38m8i8eOdWF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicCalculator.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.LongestPalindrome.executor": "Run",
+    "Application.MeetingRooms.executor": "Run",
+    "Application.MeetingRooms2.executor": "Run",
+    "Application.MergeIntervals.executor": "Run",
+    "Application.SortColors.executor": "Run",
+    "Application.ThreeSum.executor": "Run",
+    "Application.TwoSum.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
+    "Application.blind75.array.hashmapandset.ContainsDuplicate.executor": "Run",
+    "Application.blind75.string.stack.ValidParentheses.executor": "Run",
+    "Application.grind75.array.hashmapandset.TwoSum.executor": "Run",
+    "Application.grind75.array.two_pointer.ThreeSum.executor": "Run",
+    "Application.grind75.string.two_pointer.ValidPalindrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/tinaghosh/IdeaProjects/DataStructureProject/src/grind75/graph",
+    "onboarding.tips.debug.path": "/Users/tinaghosh/IdeaProjects/DataStructureProject/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/grind75/graph" />
+      <recent name="$PROJECT_DIR$/src/blind75/dynamic_programming" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="blind75.tree" />
+      <recent name="blind75.tree.binarysearchtree" />
+      <recent name="grind75.graph" />
+      <recent name="blind75.dynamic_programming" />
+      <recent name="grind75.heap" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MergeIntervals">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grind75.stack.BasicCalculator" />
+      <module name="DataStructureProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="grind75.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blind75.interval.MeetingRooms" />
+      <module name="DataStructureProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blind75.interval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingRooms2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blind75.interval.MeetingRooms2" />
+      <module name="DataStructureProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blind75.interval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blind75.interval.MergeIntervals" />
+      <module name="DataStructureProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blind75.interval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blind75.string.stack.ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="blind75.string.stack.ValidParentheses" />
+      <module name="DataStructureProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="blind75.string.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.MeetingRooms2" />
+        <item itemvalue="Application.MeetingRooms" />
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.blind75.string.stack.ValidParentheses" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46759e5d-eec7-44bb-8a60-2b099d758575" name="Changes" comment="" />
+      <created>1767649815551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767649815551</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test Commit">
+      <option name="closed" value="true" />
+      <created>1767650311395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767650311395</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Structure Commit">
+      <option name="closed" value="true" />
+      <created>1767653793071</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767653793071</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sort Colors">
+      <option name="closed" value="true" />
+      <created>1767681736565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767681736565</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ValidPalindrome">
+      <option name="closed" value="true" />
+      <created>1767685863898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767685863898</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ValidPalindrome">
+      <option name="closed" value="true" />
+      <created>1767685922699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767685922699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ThreeSum">
+      <option name="closed" value="true" />
+      <created>1767687739569</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767687739569</updated>
+    </task>
+    <task id="LOCAL-00007" summary="HashMap DS">
+      <option name="closed" value="true" />
+      <created>1767725302781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767725302781</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ValidParentheses">
+      <option name="closed" value="true" />
+      <created>1767728403858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767728403858</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Meeting room1">
+      <option name="closed" value="true" />
+      <created>1767899614522</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767899614522</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Meeting rooms DS">
+      <option name="closed" value="true" />
+      <created>1767902934222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767902934222</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commit" />
+    <MESSAGE value="Structure Commit" />
+    <MESSAGE value="Sort Colors" />
+    <MESSAGE value="ValidPalindrome" />
+    <MESSAGE value="ThreeSum" />
+    <MESSAGE value="HashMap DS" />
+    <MESSAGE value="ValidParentheses" />
+    <MESSAGE value="Meeting room1" />
+    <MESSAGE value="Meeting rooms DS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meeting rooms DS" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/string/twopointer/ValidPalindrome.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MeetingRooms2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/InsertInterval.java</url>
+          <line>4</line>
+          <properties class="blind75.interval.InsertInterval" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/blind75/interval/MergeIntervals.java</url>
+          <line>34</line>
+          <properties class="blind75.interval.MergeIntervals" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
