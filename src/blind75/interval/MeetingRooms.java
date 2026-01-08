@@ -24,7 +24,7 @@ public class MeetingRooms {
     }
     public static void main(String[] args){
 
-       int[][] meetings ={{5,8},{9,15}};// {{0,30},{5,10},{15,20}};
+       int[][] meetings = {{5,8},{9,15}};// {{0,30},{5,10},{15,20}};
 
         MeetingRooms obj = new MeetingRooms();
 
