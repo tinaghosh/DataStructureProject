@@ -1,4 +1,4 @@
-package grind75.binary_tree;
+package blind75.tree;
 
 public class TreeNode {
 
