@@ -35,7 +35,7 @@ public class BinaryTreeRightSideView {
         }
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Object[] nums = {1,2,3,null,5,null,4};
         Object[] nums1 = {1,2,3,5,6};
@@ -54,7 +54,7 @@ public class BinaryTreeRightSideView {
 
         BinaryTreeRightSideView obj = new BinaryTreeRightSideView();
         List<Integer> result = obj.rightSieViewOfATree(root1);
-        result.stream().forEach(e-> System.out.print(e+","));
+        result.forEach(e-> System.out.print(e+","));
 
     }
 }

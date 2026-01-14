@@ -16,7 +16,7 @@ public class InvertBinaryTree {
         return root;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] rootArray = {4, 2, 7, 1, 3, 6, 9};
 
         TreeNode root = new TreeNode(rootArray[0]);
