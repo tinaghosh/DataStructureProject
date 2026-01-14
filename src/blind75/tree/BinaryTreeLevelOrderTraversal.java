@@ -51,6 +51,6 @@ public class BinaryTreeLevelOrderTraversal {
 
         BinaryTreeLevelOrderTraversal obj = new BinaryTreeLevelOrderTraversal();
         List<List<Integer>> result = obj.binaryTreeLevelOrderTraversal(root);
-        result.forEach(e-> {System.out.println(e);});
+        result.forEach(e-> System.out.println(e));
     }
 }
