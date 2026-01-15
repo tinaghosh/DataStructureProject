@@ -1,4 +1,6 @@
-package blind75.tree;
+package blind75.tree.binarytree;
+
+import blind75.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package grind75.trie;
+package grind75.tree.trie;
 
 public class WordBreak {
 }

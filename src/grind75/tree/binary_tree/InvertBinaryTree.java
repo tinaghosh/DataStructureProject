@@ -1,4 +1,6 @@
-package grind75.binary_tree;
+package grind75.tree.binary_tree;
+
+import grind75.tree.TreeNode;
 
 public class InvertBinaryTree {
 
