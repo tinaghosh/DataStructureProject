@@ -1,6 +1,6 @@
 package grind75.tree.binary_search_tree;
 
-import blind75.tree.TreeNode;
+import grind75.tree.TreeNode;
 
 
 public class LowestCommonAncestorOfABinarySearchTree {

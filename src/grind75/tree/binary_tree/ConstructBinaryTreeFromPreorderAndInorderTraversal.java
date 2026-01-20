@@ -1,7 +1,6 @@
 package grind75.tree.binary_tree;
 
-import blind75.tree.TreeNode;
-
+import grind75.tree.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 

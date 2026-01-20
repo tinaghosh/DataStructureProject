@@ -1,7 +1,6 @@
 package grind75.tree.binary_tree;
 
 import grind75.tree.TreeNode;
-
 import java.util.*;
 
 public class BinaryTreeRightSideView {
