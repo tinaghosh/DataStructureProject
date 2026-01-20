@@ -1,4 +1,4 @@
-package blind75.tree;
+package blind75.tree.trie;
 
 public class AddAndSearchWord {
 }
