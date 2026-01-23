@@ -1,4 +1,4 @@
-package blind75.tree.trie;
+package grind75.tree.trie;
 
 public class ImplementTrie {
 
@@ -11,45 +11,42 @@ public class ImplementTrie {
     public void insert(String word){
 
         TrieNode currentNode = root;
-        char[] wordCharArray = word.toCharArray();
-
-        for(int i=0;i<wordCharArray.length;i++){
-            if(!currentNode.containsKey(wordCharArray[i])) {
-                currentNode.put(wordCharArray[i],new TrieNode());
+        char[] wordToCharArray = word.toCharArray();
+        for(char c: wordToCharArray){
+            if(!currentNode.containsKey(c)){
+                currentNode.children[c-'a'] = new TrieNode();
             }
-            currentNode = currentNode.get(wordCharArray[i]);
-         }
-        currentNode.setEndNode(true);
+            currentNode = currentNode.get(c);
+        }
+        currentNode.setEndWord(true);
     }
 
     public boolean search(String word){
 
         TrieNode node = searchPrefix(word);
-
-        if(node !=null && node.isEndNode()){
+        if(node!=null && node.isEndWord()){
             return true;
         }
         return false;
     }
 
-    public boolean startswith(String word){
+    public boolean startsWith(String word){
 
         TrieNode node = searchPrefix(word);
-
-        if(node !=null){
+        if(node!=null){
             return true;
         }
         return false;
     }
 
-    public TrieNode searchPrefix(String word) {
+    public TrieNode searchPrefix(String word){
 
         TrieNode currentNode = root;
-        char[] wordCharArray = word.toCharArray();
 
-        for(int i=0;i<wordCharArray.length;i++){
-            if(currentNode.containsKey(wordCharArray[i])){
-                currentNode = currentNode.get(wordCharArray[i]);
+        char[] wordToCharArray = word.toCharArray();
+        for(char c : wordToCharArray){
+            if(currentNode.containsKey(c)){
+               currentNode = currentNode.get(c);
             }else{
                 return null;
             }
@@ -59,12 +56,12 @@ public class ImplementTrie {
 
     public static void main(String[] args){
 
-       String[] operations = {"Trie", "insert", "search", "search", "startsWith", "insert", "search"};
+        String[] operations = {"Trie", "insert", "search", "search", "startsWith", "insert", "search"};
 
-       String[][] words = {{}, {"apple"}, {"apple"}, {"app"}, {"app"}, {"app"}, {"app"}};
+        String[][] words = {{}, {"apple"}, {"apple"}, {"app"}, {"app"}, {"app"}, {"app"}};
 
-       ImplementTrie trieObj = null;
-       int index = 0;
+        ImplementTrie trieObj = null;
+        int index = 0;
 
         for(String operation : operations){
             System.out.println("Operation-> "+operation);
@@ -102,7 +99,7 @@ public class ImplementTrie {
                 if(index==4) {
                     String[] arrInputWordList = words[index];
                     for (String word : arrInputWordList) {
-                        boolean result = trieObj.startswith(word);
+                        boolean result = trieObj.startsWith(word);
                         if (result) {
                             System.out.println("Word starts with "+word + " present in the trie");
                         } else {
