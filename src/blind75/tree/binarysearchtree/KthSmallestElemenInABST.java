@@ -28,7 +28,7 @@ public class KthSmallestElemenInABST {
        return -1;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Object[] rootArray = {5,3,6,2,4,null,null,1};
         int k = 3;
