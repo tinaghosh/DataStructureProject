@@ -1,14 +1,12 @@
 package blind75.tree.trie;
 
-import blind75.tree.TreeNode;
-
 public class TrieNode {
      final int data = 26 ;
      TrieNode[] children;
      boolean endNode;
 
     public TrieNode(){
-     this.children = new TrieNode[26];
+     this.children = new TrieNode[data];
     }
 
     public TrieNode(TrieNode[] children, boolean endNode) {
@@ -27,9 +25,8 @@ public class TrieNode {
     public boolean containsKey(char c){
         if(children[c-'a']!=null){
             return true;
-        }else{
-            return false;
         }
+        return false;
     }
 
     public TrieNode get(char c){
