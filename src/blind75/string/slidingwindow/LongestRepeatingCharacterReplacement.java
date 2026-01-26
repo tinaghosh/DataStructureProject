@@ -1,7 +1,5 @@
 package blind75.string.slidingwindow;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class LongestRepeatingCharacterReplacement {
 

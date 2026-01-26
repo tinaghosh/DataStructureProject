@@ -7,6 +7,10 @@ public class MinimumWindowSubstring {
 
     public String minimumWindowSubstring(String s, String t) {
 
+        if(t.isEmpty()||s.isEmpty()||s.length()<t.length()){
+            return "";
+        }
+
         Map<Character, Integer> needMap = new HashMap<>();
         Map<Character, Integer> haveMap = new HashMap<>();
         int haveMatching = 0;
@@ -39,7 +43,7 @@ public class MinimumWindowSubstring {
 
                 char leftChar = s.charAt(leftPointer);
                 haveMap.put(leftChar,haveMap.get(leftChar)-1);
-                if(needMap.containsKey(leftChar) && haveMap.get(leftChar).intValue() < needMap.get(leftChar).intValue()){
+                if(needMap.containsKey(leftChar) && haveMap.get(leftChar) < needMap.get(leftChar)){
                     haveMatching--;
                 }
                 leftPointer++;
