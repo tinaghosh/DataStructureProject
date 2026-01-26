@@ -13,10 +13,10 @@ public class ContainerWithMostWater {
             int area = (rightPointer-leftPointer) * Math.min(height[leftPointer],height[rightPointer]);
             maxArea = Math.max(maxArea,area);
 
-            if(height[leftPointer]<=height[leftPointer]){
+            if(height[leftPointer]<=height[rightPointer]){
                 leftPointer++;
             }else{
-                rightPointer++;
+                rightPointer--;
             }
         }
       return maxArea;
