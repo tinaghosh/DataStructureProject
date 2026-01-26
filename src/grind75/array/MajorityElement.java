@@ -17,7 +17,7 @@ public class MajorityElement {
       }
       return maxElement;
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
         int[] nums = {2,2,1,1,1,2,2};
         MajorityElement obj = new MajorityElement();
         int result = obj.findMajorityElement(nums);
