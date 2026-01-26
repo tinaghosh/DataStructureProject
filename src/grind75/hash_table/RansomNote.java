@@ -1,8 +1,5 @@
 package grind75.hash_table;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class RansomNote {
 
     public boolean ransomNotePossibleFromMagazineUsingArray(String ransomNote,String magazine){
