@@ -6,8 +6,8 @@ public class SortColors {
 
     public int[] sortColors(int[] nums ){
 
-        int current =0;
-        int left =0;
+        int current = 0;
+        int left = 0;
         int right = nums.length-1;
 
         while(current<=right){

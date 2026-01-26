@@ -19,9 +19,9 @@ public class GroupAnagrams {
 
            StringBuilder sKey = new StringBuilder();
 
-           for(int n : alphabet){
+           for(int j=0;j<alphabet.length;j++){
                sKey.append(("#"));
-               sKey.append(n);
+               sKey.append(alphabet[j]);
            }
 
            if(map.containsKey(sKey.toString())){
@@ -34,7 +34,7 @@ public class GroupAnagrams {
                map.put(sKey.toString(),newWordList);
            }
         }
-       // map.entrySet().forEach(e-> System.out.println(e.getKey()+" ---> "+e.getValue()));
+       map.entrySet().forEach(e-> System.out.println(e.getKey()+" ---> "+e.getValue()));
 
         for(Map.Entry<String, List<String>> entry: map.entrySet()){
             output.add(entry.getValue());

@@ -67,7 +67,5 @@ public class RemoveNthNodeFromEndOfList {
         RemoveNthNodeFromEndOfList obj = new RemoveNthNodeFromEndOfList();
         LinkNode result = obj.removeNthNodeFromEndOfList(head,n);
         printLinkedList(result);
-
-
     }
 }
