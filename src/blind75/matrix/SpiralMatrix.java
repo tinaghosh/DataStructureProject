@@ -1,7 +1,6 @@
 package blind75.matrix;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class SpiralMatrix {
