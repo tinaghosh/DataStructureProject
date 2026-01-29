@@ -11,9 +11,8 @@ public class AddBinary {
 
         while(aPointer>=0 || bPointer>=0 || carry>0 ){
 
-            int sum = 0;
-            int adigit =0 ;
-            int bdigit=0 ;
+            int adigit = 0 ;
+            int bdigit = 0 ;
 
             if(aPointer>=0) {
               adigit = a.charAt(aPointer) - '0';
@@ -21,7 +20,7 @@ public class AddBinary {
             if(bPointer>=0) {
                 bdigit = b.charAt(bPointer) - '0';
             }
-            sum = adigit+bdigit+carry;
+            int sum = adigit+bdigit+carry;
             aPointer--;
             bPointer--;
 
