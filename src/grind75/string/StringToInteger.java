@@ -18,7 +18,7 @@ public class StringToInteger {
             }else{
                if(isDigit(c)){
                    if (output > Integer.MAX_VALUE / 10 || (output == Integer.MAX_VALUE / 10 && c-'0' > 7)) {
-                       return  isNegativeInteger == false ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+                       return  !isNegativeInteger ? Integer.MAX_VALUE : Integer.MIN_VALUE;
                    }
                    output = output*10+(c-'0');
                }else{
