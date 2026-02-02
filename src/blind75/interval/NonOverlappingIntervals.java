@@ -22,7 +22,6 @@ public class NonOverlappingIntervals {
 
          if(currentStart<nextStart && currentEnd <= nextStart){
              currentInterval = intervals[i];
-             continue;
          }else{
             delete++;
             currentInterval = new int[]{Math.min(currentStart,currentEnd),Math.min(nextStart,nextEnd)};
