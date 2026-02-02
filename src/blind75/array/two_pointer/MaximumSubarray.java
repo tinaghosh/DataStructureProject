@@ -1,4 +1,4 @@
-package grind75.dynamic_programming;
+package blind75.array.two_pointer;
 
 public class MaximumSubarray {
 
@@ -6,14 +6,15 @@ public class MaximumSubarray {
         int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
 
-        for(int i=0;i<arr.length;i++){
-            currentSum = currentSum+arr[i];
+        for(int rightPointer = 0;rightPointer<arr.length;rightPointer++){
+            currentSum = currentSum + arr[rightPointer];
             maxSum = Math.max(currentSum,maxSum);
+
             if(currentSum<0){
                 currentSum = 0;
             }
         }
-        return  maxSum;
+        return maxSum;
     }
 
     public static void main(String[] args){
