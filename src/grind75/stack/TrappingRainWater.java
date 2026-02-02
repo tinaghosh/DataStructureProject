@@ -17,7 +17,7 @@ public class TrappingRainWater {
                 if(maxLeft - height[leftPointer] > 0) {
                     waterSum = waterSum + (maxLeft - height[leftPointer]);
                 }else{
-                    waterSum = waterSum+0;
+                    waterSum = waterSum+0; //Negative value will be replaced by 0
                 }
                 maxLeft = Math.max(height[leftPointer],maxLeft);
                 leftPointer++;
