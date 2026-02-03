@@ -33,8 +33,8 @@ public class LargestRectangleInHistogram {
     }
 
     class Pair {
-        int startIndex = 0;
-        int height = 0;
+        int startIndex;
+        int height;
 
         Pair(int startIndex, int height) {
             this.startIndex = startIndex;
