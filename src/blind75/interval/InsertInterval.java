@@ -17,7 +17,7 @@ public class InsertInterval {
                 indicator ++;
             }
         }
-        if (output.size() >= 1) {
+        if (!output.isEmpty()) {
             int[] prevInterval = output.getLast();
             if (prevInterval[1] >= newInterval[0]) {
                 output.getLast()[0] = Math.min(output.getLast()[0], newInterval[0]);
