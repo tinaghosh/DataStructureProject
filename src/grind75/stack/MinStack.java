@@ -1,7 +1,5 @@
 package grind75.stack;
 
-import java.util.Stack;
-
 public class MinStack {
 
     CustomStackNode head = null;
@@ -55,7 +53,7 @@ public class MinStack {
        }
     }
 
-    private class CustomStackNode{
+    private static class CustomStackNode{
         int value;
         int minValue;
         CustomStackNode nextNode;
