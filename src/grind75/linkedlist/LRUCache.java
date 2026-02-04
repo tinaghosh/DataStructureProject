@@ -5,10 +5,10 @@ import java.util.Map;
 
 public class LRUCache {
 
-    private int capacity ;
-    private Map<Integer,Node> cache ;
-    private Node head ; //MRU Node
-    private Node tail ; //LRU Node
+    private final int capacity ;
+    private final Map<Integer,Node> cache ;
+    private final Node head ; //MRU Node
+    private final Node tail ; //LRU Node
 
     public LRUCache(int capacity){
         this.capacity = capacity;

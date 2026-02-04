@@ -21,7 +21,7 @@ public class ReverseInteger {
         return (int)sum * sign;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         int i =-321;
         ReverseInteger obj = new ReverseInteger();
         int result = obj.reverse(i);
