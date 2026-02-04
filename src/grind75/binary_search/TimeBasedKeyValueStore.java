@@ -103,7 +103,7 @@ public class TimeBasedKeyValueStore {
               System.out.print(result+" ");
 
               String resultTree = obj2.getUsingTreeMap(inner[0].toString(),(int)inner[1]);
-             // System.out.print(resultTree+" ");
+              System.out.print(resultTree+" ");
           }
       }
     }
