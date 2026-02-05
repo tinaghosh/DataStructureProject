@@ -4,7 +4,7 @@ import java.util.*;
 
 public class TopKFrequentElements {
 
-    public int[] findtopKElement(int nums[] , int k){
+    public int[] findtopKElement(int[] nums , int k){
 
      Map<Integer,Integer> fequencyMap = new HashMap<>();
      int[] output = new int[k];
@@ -13,9 +13,9 @@ public class TopKFrequentElements {
          return nums;
      }
 
-     for(int i=0;i<nums.length;i++){
-         int value = fequencyMap.getOrDefault(nums[i],0)+1;
-         fequencyMap.put(nums[i],value);
+     for(int i : nums){
+         int value = fequencyMap.getOrDefault(i,0)+1;
+         fequencyMap.put(i,value);
      }
 
      Queue<Integer> heap = new PriorityQueue(
@@ -29,13 +29,14 @@ public class TopKFrequentElements {
      }
 
      for(int i=0;i<k;i++){
-         output[i] = heap.poll();
+         if(!heap.isEmpty())
+             output[i] = heap.poll();
      }
      return output;
     }
 
     public static void main(String[] args){
-        int nums[] = {1,1,1,2,2,3};
+        int[] nums = {1,1,1,2,2,3};
         int k = 2;
 
         TopKFrequentElements obj = new TopKFrequentElements();
