@@ -18,6 +18,9 @@ public class TopKFrequentElements {
          fequencyMap.put(i,value);
      }
 
+     // As we need to figure out top highest frequency so basically top k
+        // largest frequent number hence use minHeap
+
      Queue<Integer> heap = new PriorityQueue(
              (a,b)-> fequencyMap.get(a)- fequencyMap.get(b));
 
