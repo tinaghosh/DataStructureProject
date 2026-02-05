@@ -64,7 +64,7 @@ public class MaximumProfitInJobScheduling {
 
     }
 
-    class Job{
+    private static class Job{
         int startTime;
         int endTime;
         int profit;
