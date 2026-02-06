@@ -5,8 +5,8 @@ import java.util.Queue;
 
 public class FindMedianFromDataStream {
 
-    Queue<Integer> leftMaxHeap = null;
-    Queue<Integer> rightMinHeap = null;
+    Queue<Integer> leftMaxHeap;
+    Queue<Integer> rightMinHeap;
 
     public FindMedianFromDataStream(){
 
@@ -31,9 +31,9 @@ public class FindMedianFromDataStream {
     }
 
     public double findMedian(){
-        double result = 0;
+        double result;
 
-        if(leftMaxHeap.size()==rightMinHeap.size()){
+        if(!leftMaxHeap.isEmpty() && leftMaxHeap.size()==rightMinHeap.size()){
             result = (double)(leftMaxHeap.peek() + rightMinHeap.peek())/2;
         }else{
             result = leftMaxHeap.peek();
@@ -42,11 +42,8 @@ public class FindMedianFromDataStream {
     }
     public static void main(String[] args){
 
-        String[] operations1 = {"MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"};
-        int[][] inputs1 = {{}, {1}, {2}, {}, {3}, {}};
-
-        String[] operations = {"MedianFinder","addNum","findMedian","addNum","findMedian"};
-        int[][] inputs = {{},{2},{},{3},{}};
+        String[] operations = {"MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"};
+        int[][] inputs = {{}, {1}, {2}, {}, {3}, {}};
 
         FindMedianFromDataStream obj =null;
 

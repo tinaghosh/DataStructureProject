@@ -5,8 +5,8 @@ import java.util.Queue;
 
 public class FindMedianFromDataStream {
 
-    Queue<Integer> leftMaxHeap = null;
-    Queue<Integer> rightMinHeap = null;
+    Queue<Integer> leftMaxHeap;
+    Queue<Integer> rightMinHeap;
 
     public FindMedianFromDataStream(){
         leftMaxHeap = new PriorityQueue<>(
@@ -32,7 +32,7 @@ public class FindMedianFromDataStream {
 
     public double findMedian(){
 
-        double result = 0;
+        double result;
 
         // for even no of element in the datastream
         if(leftMaxHeap.size()==rightMinHeap.size()){
