@@ -33,7 +33,7 @@ public class FindMedianFromDataStream {
     public double findMedian(){
         double result;
 
-        if(!leftMaxHeap.isEmpty() && leftMaxHeap.size()==rightMinHeap.size()){
+        if(leftMaxHeap.size()==rightMinHeap.size()){
             result = (double)(leftMaxHeap.peek() + rightMinHeap.peek())/2;
         }else{
             result = leftMaxHeap.peek();
