@@ -30,9 +30,7 @@ public class HouseRobberII {
         int incluingStartIndex = recursion(houses, 0, houses.length - 1, mem1);
         int excludingStartIndex = recursion(houses, 1, houses.length, mem2);
 
-        int maxMoney = Math.max(incluingStartIndex, excludingStartIndex);
-
-        return maxMoney;
+        return  Math.max(incluingStartIndex, excludingStartIndex);
     }
 
     public int recursion(int[] houses, int index, int endIndex, int[] mem) {
@@ -59,8 +57,8 @@ public class HouseRobberII {
         int[] result = new int[houses.length + 1];
 
         result[0] = 0;
-        int incluingStartIndex = 0;
-        int excludingStartIndex = 0;
+        int incluingStartIndex;
+        int excludingStartIndex;
 
         for (int i = 1; i <= houses.length - 1; i++) {
             if (i - 2 < 0) {

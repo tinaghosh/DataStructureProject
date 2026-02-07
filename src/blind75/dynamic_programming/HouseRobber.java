@@ -46,7 +46,7 @@ public class HouseRobber {
             int[] result = new int[n + 1];
 
             result[0] = 0; // till 0th home no money has been robbed.
-            result[1] = houses[1 - 1]; // till 1st home money has been robbed houses[i-1].
+            result[1] = houses[0]; // till 1st home money has been robbed houses[i-1].
 
             for (int i = 2; i <= houses.length; i++) {
        /*
