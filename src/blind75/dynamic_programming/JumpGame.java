@@ -8,7 +8,7 @@ public class JumpGame {
 
         for(int i=nums.length-2;i>=0;i--){
             if((nums[i]+i) >= goal){
-                goal =i;
+                goal = i;
             }
         }
         if(goal == 0){
