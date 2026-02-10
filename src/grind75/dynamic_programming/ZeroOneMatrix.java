@@ -1,7 +1,6 @@
 package grind75.dynamic_programming;
 
 import java.util.Arrays;
-import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -28,7 +27,6 @@ public class ZeroOneMatrix {
         }
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
 
             Matrix pair = queue.poll();
 
@@ -60,7 +58,6 @@ public class ZeroOneMatrix {
                     queue.add(new Matrix(pair.row - 1, pair.column));
                 }
             }
-
         }
         return result;
     }
