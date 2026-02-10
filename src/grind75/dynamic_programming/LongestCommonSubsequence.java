@@ -19,8 +19,8 @@ public class LongestCommonSubsequence {
 
     public int recursion(String text1, String text2,int indexOfText1,int indexOfText2){
 
-        int excludeFromtext1 = 0 ;
-        int excludeFromtext2 = 0 ;
+        int excludeFromtext1;
+        int excludeFromtext2;
 
         if(mem[indexOfText1][indexOfText2]!=-1){
             return mem[indexOfText1][indexOfText2];
