@@ -94,13 +94,12 @@ public class PalindromicSubstrings {
       return count;
     }
 
-    public int checkPalindromeSmart(String s,int i,int j){
+    public void checkPalindromeSmart(String s,int i,int j){
         while(i>=0 && j<s.length() && s.charAt(i)== s.charAt(j)){
             count++;
             i--;
             j++;
         }
-        return count;
     }
 
     //*************************  Using Samrt Approach ********************//
