@@ -21,7 +21,7 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
        }
 
        for(int i=0;i<node;i++){
-           if(visited[i] == false) {
+           if(!visited[i]) {
             count++;
             recursion(adjList,visited,i);
            }
