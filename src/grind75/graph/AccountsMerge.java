@@ -12,7 +12,7 @@ public class AccountsMerge {
          List<List<String>> results = new ArrayList<>();
 
          for(List<String> list : accounts){
-             String name = list.get(0);
+             String name = list.getFirst(); //0th element
              for(int i=1;i<list.size();i++){
                  String email = list.get(i);
                  unionFind.parent.put(email,email);
@@ -70,8 +70,7 @@ public class AccountsMerge {
 
         public String find(String a){
           if(!parent.get(a).equals(a)){
-              String localParent = find(parent.get(a));
-              return localParent;
+              return  find(parent.get(a));
           }else{
               return a;
           }

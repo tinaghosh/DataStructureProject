@@ -48,9 +48,9 @@ public class PacificAtlanticWaterFlow {
         }
         oceanVisited[row][column] = true;
 
-        for(int i=0;i<direction.length;i++){
-            int newRow = row + direction[i][0];
-            int newCol = column + direction[i][1];
+        for(int[] d : direction){
+            int newRow = row + d[0];
+            int newCol = column + d[1];
             recursion(heights, newRow, newCol, oceanVisited , heights[row][column]);
         }
     }

@@ -15,9 +15,9 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
            adjList.add(new ArrayList<>());
        }
 
-       for(int i=0;i<edges.length;i++){
-            adjList.get(edges[i][0]).add(edges[i][1]);
-            adjList.get(edges[i][1]).add(edges[i][0]);
+       for(int[] i : edges){
+            adjList.get(i[0]).add(i[1]);
+            adjList.get(i[1]).add(i[0]);
        }
 
        for(int i=0;i<node;i++){
@@ -34,7 +34,7 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
         visited[index] = true;
 
          for(int enode : adjList.get(index)){
-             if(visited[enode] == false) {
+             if(!visited[enode]) {
                recursion(adjList,visited,enode);
              }
          }
