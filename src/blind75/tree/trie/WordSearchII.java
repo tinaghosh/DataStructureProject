@@ -47,7 +47,7 @@ public class WordSearchII{
         LocalTrieNode current = trie.get(board[row][col]);
 
         if(current.isEndNode()){
-            output.add(current.word);
+            output.add(current.getWord());
             current.setEndNode(false);
         }
         char temp =  board[row][col];

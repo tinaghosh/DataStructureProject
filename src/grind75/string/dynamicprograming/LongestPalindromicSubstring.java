@@ -8,7 +8,7 @@ public class LongestPalindromicSubstring {
         }
 
         if(s.length()==1){
-            return s.substring(0);
+            return s;
         }
 
         int left = 0, right=0;

@@ -9,7 +9,7 @@ public class CombinationSum {
 
     public List<List<Integer>> findAllCombinationsOfTarget(int[] candidates,int target){
         output = new ArrayList<>();
-        backTracking(target,0,candidates, new ArrayList<Integer>());
+        backTracking(target,0,candidates, new ArrayList<>());
         return output;
     }
 
@@ -31,7 +31,7 @@ public class CombinationSum {
         if(candidates[index] <= target){
             current.add(candidates[index]);
             backTracking(target - candidates[index], index, candidates, current);
-            current.remove(current.size()-1);
+            current.removeLast();
         }
 
         backTracking(target, index+1, candidates, current);
