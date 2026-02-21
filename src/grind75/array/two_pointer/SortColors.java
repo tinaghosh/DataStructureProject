@@ -1,4 +1,4 @@
-package grind75.array;
+package grind75.array.two_pointer;
 
 import java.util.Arrays;
 
