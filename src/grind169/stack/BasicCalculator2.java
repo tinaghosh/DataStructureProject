@@ -45,12 +45,11 @@ public class BasicCalculator2 {
     public boolean isDigit(char c) {
         if (c - '0' >= 0 && c - '0' <= 9) {
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         BasicCalculator2 obj = new BasicCalculator2();
         String expression = "3+2*2";
         int result = obj.calculate(expression);
