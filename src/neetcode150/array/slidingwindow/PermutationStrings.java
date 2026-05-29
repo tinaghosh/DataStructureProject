@@ -27,7 +27,6 @@ public class PermutationStrings {
             if(windowLength > n){
                 char cleft = s2.charAt(left);
                 s2Array[cleft-'a']--;
-                windowLength--;
                 left++;
             }
             System.out.println();
