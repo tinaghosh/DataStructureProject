@@ -1,4 +1,4 @@
-package neetcode150.array.slidingwindow;
+package grind169.slidingwindow;
 
 import java.util.Arrays;
 
