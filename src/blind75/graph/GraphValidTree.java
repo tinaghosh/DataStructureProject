@@ -19,6 +19,7 @@ public class GraphValidTree {
         }else{
             return false;
         }
+
         System.out.println(noOfConnectedComponent);
 
         for(int i=0;i<n;i++){
@@ -35,19 +36,17 @@ public class GraphValidTree {
             System.out.println("}");
         });
 
-        if(noOfConnectedComponent == 1){
-          if(detectCycle(adjList,visited,parent) == false){
+        if(noOfConnectedComponent == 1 && !(detectCycle(adjList,visited))){
               return true;
-          }
         }
         return false;
     }
 
-    public boolean detectCycle(List<List<Integer>> adjList,boolean[] visited,int parent){
+    public boolean detectCycle(List<List<Integer>> adjList,boolean[] visited){
       Arrays.fill(visited,false);
 
       for(int i=0;i<adjList.size();i++){
-          if(visited[i]==false){
+          if(!visited[i]){
               if(isCycleDFS(adjList,visited,-1,i)){
                   return true;
               }
@@ -60,7 +59,7 @@ public class GraphValidTree {
         visited[index] = true;
 
         for(int node: adjList.get(index)){
-            if(visited[node]==false){
+            if(!visited[node]){
                 if(isCycleDFS( adjList, visited, index, node)){
                     return true;
                 }
