@@ -1,4 +1,4 @@
-package neetcode150.binary;
+package neetcode150.bitmanipulation;
 
 public class ReverseInteger {
     public int reverse(int x) {

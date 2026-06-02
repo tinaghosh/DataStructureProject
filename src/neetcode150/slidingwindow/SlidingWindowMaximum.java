@@ -1,4 +1,4 @@
-package neetcode150.array.slidingwindow;
+package neetcode150.slidingwindow;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
@@ -17,14 +17,14 @@ public class SlidingWindowMaximum {
           while(!deque.isEmpty() && deque.getFirst() < i-k+1){
               deque.poll();
           }
-          //Maximum element always in the first element of the queue So delete all the less element  from fromt of the queue
+          //Maximum element always in the first element of the queue So delete all the less element from front of the queue
           while(!deque.isEmpty() && nums[deque.getLast()] < nums[i]){
              deque.pollLast();
           }
           //Add element in the queue
           deque.add(i);
 
-          //Add the front element in th eresult
+          //Add the front element in the result
           if(i >= k-1){
               result[i-k+1]= nums[deque.getFirst()];
           }
