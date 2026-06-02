@@ -4,7 +4,7 @@ public class SingleNumber {
 
     public int singleNumber(int[] nums) {
         int c = 0;
-        for(int i=0;i<nums.length;i++){
+        for(int i = 0; i < nums.length; i++){
             int a = nums[i];
             c = a ^ c ;
         }
