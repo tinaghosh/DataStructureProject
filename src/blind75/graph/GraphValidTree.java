@@ -11,8 +11,7 @@ public class GraphValidTree {
 
         boolean[] visited = new boolean[n];
         List<List<Integer>> adjList = new ArrayList<>();
-        int parent = -1;
-        int noOfConnectedComponent = 0;
+        int noOfConnectedComponent;
 
         if(edges!=null && edges.length == n-1){
             noOfConnectedComponent = 1;
