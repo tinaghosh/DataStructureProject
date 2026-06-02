@@ -33,7 +33,7 @@ public class CombinationSum2 {
 
             inner.add(candidates[i]);
             findAllCombinations(i+1,candidates, target-candidates[i],result, inner);
-            inner.remove(inner.size() - 1);
+            inner.removeLast();
         }
     }
 
