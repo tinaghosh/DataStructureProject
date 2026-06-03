@@ -20,7 +20,7 @@ public class LastStoneWeight {
                 maxHeap.add(a-b);
             }
         }
-        if(maxHeap.size()>0){
+        if(!maxHeap.isEmpty()){
             return maxHeap.peek();
         }else{
             return 0;
