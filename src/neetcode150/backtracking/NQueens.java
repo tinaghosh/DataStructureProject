@@ -16,7 +16,7 @@ public class NQueens {
         List<String> board = new ArrayList<>();
 
         for(int i=0;i<n;i++){
-            StringBuffer s = new StringBuffer();
+            StringBuilder s = new StringBuilder();
             for(int j=0;j<n;j++){
                 s.append(".");
             }
@@ -39,7 +39,7 @@ public class NQueens {
             if(columnSet.contains(col) || diagonalSet.contains(row-col) || antiDiagonalSet.contains(row+col)){
                 continue;
             }else{
-                StringBuffer b = new StringBuffer(board.get(row));
+                StringBuilder b = new StringBuilder(board.get(row));
                 b.setCharAt(col,'Q');
                 board.set(row,b.toString());
 
