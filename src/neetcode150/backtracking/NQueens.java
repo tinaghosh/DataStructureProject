@@ -49,7 +49,7 @@ public class NQueens {
 
                 boardRecursion(result,columnSet,diagonalSet,antiDiagonalSet,board,row+1);
 
-                StringBuffer re = new StringBuffer(board.get(row));
+                StringBuilder re = new StringBuilder(board.get(row));
                 re.setCharAt(col,'.');
                 board.set(row,re.toString());
 
