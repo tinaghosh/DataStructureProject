@@ -15,7 +15,7 @@ public class HandOfStraights {
            freqSortedMap.put(hand[i],freqSortedMap.getOrDefault((hand[i]),0)+1) ;
        }
 
-       while(freqSortedMap.size()>0){
+       while(!freqSortedMap.isEmpty()){
 
            int current = freqSortedMap.firstKey();
 
