@@ -66,6 +66,27 @@ public class MergeTwoSortedLists {
         }
     }
 
+    public LinkNode mergeTwoListsOptimised(LinkNode list1, LinkNode list2) {
+
+        LinkNode dummy = new LinkNode(-1);
+        LinkNode current = dummy;
+
+        while(list1!=null && list2!=null){
+            if(list1.data<= list2.data){
+                current.nextNode = list1;
+                list1= list1.nextNode;
+            }else{
+                current.nextNode = list2;
+                list2= list2.nextNode;
+            }
+            current = current.nextNode;
+        }
+
+        current.nextNode = list1!=null?list1:list2;
+
+        return dummy.nextNode;
+    }
+
     public static void main(String[] args) {
 
         int[] listArray1 = {1, 2, 4, 5};
@@ -84,7 +105,10 @@ public class MergeTwoSortedLists {
 
         MergeTwoSortedLists obj = new MergeTwoSortedLists();
         LinkNode result = obj.mergeTwoLists(list1, list2);
+        LinkNode resultOptimised = obj.mergeTwoListsOptimised(list1, list2);
         printLinkedList(result);
+        System.out.println();
+        printLinkedList(resultOptimised);
 
     }
 }
