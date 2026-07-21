@@ -1,6 +1,9 @@
 package neetcode150.stack;
 
+import blind75.tree.Pair;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Stack;
 
 public class DailyTemperature {
@@ -11,7 +14,7 @@ public class DailyTemperature {
         int[] output = new int[temperatures.length];
 
         for(int i=temperatures.length-1;i>=0;i--){
-            while(!stack.isEmpty() && temperatures[i]>=temperatures[stack.peek()]){
+            while(!stack.isEmpty() && temperatures[stack.peek()]<=temperatures[i]){
                 stack.pop();
             }
             if(!stack.isEmpty()){
