@@ -1,9 +1,6 @@
 package neetcode150.stack;
 
-import blind75.tree.Pair;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Stack;
 
 public class DailyTemperature {
