@@ -1,24 +1,16 @@
 package neetcode150.bitmanipulation;
 
 public class ReverseInteger {
-    public int reverse(int x) {
-
-        int sign = 1;
-        long sum = 0;
-
-        if(x<0) {
-            sign = -1;
-            x = x * sign;
+    public int reverse(int n) {
+        int reverse =0;
+        while(n!=0){
+            if(reverse<Integer.MIN_VALUE/10 || reverse>Integer.MAX_VALUE/10){
+                return 0;
+            }
+            reverse = 10*reverse+(n%10);
+            n=n/10;
         }
-        while(x!=0){
-            int reminder = x % 10 ;
-            sum = sum * 10 + reminder;
-            x = x / 10 ;
-        }
-        if(sum > Integer.MAX_VALUE || sum < Integer.MIN_VALUE){
-            return 0;
-        }
-        return (int)sum * sign;
+        return reverse;
     }
 
     public static void main(String[] args){
